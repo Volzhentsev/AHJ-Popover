@@ -1,0 +1,1 @@
+import Popover from"./popover";var button=document.querySelector(".btn"),parent=document.querySelector(".container"),title="Popover title",text="And here's some amazing content. It's very engaging. Rignt?",popover=new Popover(parent,title,text);button.addEventListener("click",(function(){popover.init()}));
